@@ -1,0 +1,64 @@
+:root {
+    --rm-primary: #FF4C00;
+    --rm-dark: #121314;
+    --rm-light: #FFF;
+    --rm-muted: #7D7D7D;
+}
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.rm-bg-dark {
+    background: var(--rm-dark);
+}
+
+.rm-hero {
+    background: url(./assets/images/hero-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.rm-display-1 {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.rm-display-3 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.rm-display-5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.rm-text-dark {
+    color: var(--rm-dark);
+}
+
+.rm-text-primary {
+    color: var(--rm-primary);
+}
+
+.rm-text-muted {
+    color: var(--rm-muted);
+}
+
+.rm-text-medium {
+    font-weight: 500;
+}
+
+.rm-text-bold {
+    font-weight: 700;
+}
+
+.rm-footer {
+    background: var(--rm-primary);
+}
+
+
